@@ -22,8 +22,8 @@
     选择"编辑 Cloudflare Workers"模板创建令牌,
     <img width="790" alt="{EFDF4F09-BF26-4875-A796-92BC24ACF9FA}" src="https://github.com/user-attachments/assets/6938658a-bc02-4c82-b7f4-1c06bae87184" />
     继续按照如下设置
-    ![图片](https://github.com/user-attachments/assets/0671bea2-4314-4907-bff7-6cdae09c17b4)
-   确认创建
+    ![图片](https://github.com/user-attachments/assets/9b27cb45-403a-4972-9e53-8e3d4afb65c5)
+    确认创建
     ![图片](https://github.com/user-attachments/assets/b7b441e4-8585-45f5-b710-a20ae115c4f0)
     你会得到一串由数字字母组成的字符串，请将它复制到文本记录器中保留备用
     ![图片](https://github.com/user-attachments/assets/b6aa054e-4592-4e6c-9afc-d761a77377ce)
