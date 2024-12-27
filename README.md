@@ -29,10 +29,25 @@
       ![图片](https://github.com/user-attachments/assets/b6aa054e-4592-4e6c-9afc-d761a77377ce)
 
 - 获取KV空间ID
- 在存储与数据库中找到KV页，复制你想要存储的KV空间的ID到文本记录器中备用(没有的创建一个)
- ![图片](https://github.com/user-attachments/assets/0752bead-5498-413d-99ca-2c50b46bb523)
 
-   - 
+  在存储与数据库中找到KV页，复制你想要存储的KV空间的ID到文本记录器中备用(没有的创建一个)
+   ![图片](https://github.com/user-attachments/assets/0752bead-5498-413d-99ca-2c50b46bb523)
+
+- 设置github secrets
+  在你Fork本项目的项目找到settings> secrets and variables > codespaces
+  ![图片](https://github.com/user-attachments/assets/a4b85071-1c15-464d-8cbe-dab29fa60a03)
+  创建如下项目，内容请按照自己的喜好修改；
+  <img width="783" alt="{6DF8DFCA-7CF4-45F1-A99F-E19C300EC3E2}" src="https://github.com/user-attachments/assets/89539db9-abfe-497c-93fb-b21d8e149856" />
+  *注意 CF_API_TOKEN 中内容填上第一步获取的API令牌字符串。
+  * CF_REDIRECT_URL中填写你想重定向的网址比如www.baidu.com
+- 修改wrangler.toml
+  这一步需要更改worker名字，自定义二级/三级域名，KV空间ID，请替换对应位置内容即可。
+  <img width="627" alt="{A04D49FF-D83A-4B73-AE40-8ECE5E2E6018}" src="https://github.com/user-attachments/assets/ce4c0fcd-7621-4159-a9bb-3a47a9c8f0cd" />
+
+- 最后一步
+  在Actions中，执行发布。
+  ![图片](https://github.com/user-attachments/assets/62cce49e-ac2b-473e-81e1-19648beba819)
+  稍等几分钟，在CF面板中看到对应的项目，那么恭喜你已经发布完成了。
 
 #### 手动部署
 将_worker.js中的代码复制到worker代码中，或上传文件到pages。
