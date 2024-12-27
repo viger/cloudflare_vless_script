@@ -28,6 +28,10 @@
     你会得到一串由数字字母组成的字符串，请将它复制到文本记录器中保留备用
     ![图片](https://github.com/user-attachments/assets/b6aa054e-4592-4e6c-9afc-d761a77377ce)
 
+   - 获取KV空间ID
+     在存储与数据库中找到KV页，复制你想要存储的KV空间的ID到文本记录器中备用(没有的创建一个)
+     ![图片](https://github.com/user-attachments/assets/0752bead-5498-413d-99ca-2c50b46bb523)
+
    - 
 
 #### 手动部署
