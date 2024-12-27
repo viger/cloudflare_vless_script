@@ -18,15 +18,15 @@
     ![图片](https://github.com/user-attachments/assets/cfa5b9eb-f638-4364-bd88-f964fd8046e9)
   - 创建令牌
     - 点击“创建令牌”，进入创建令牌环节;
-    <img width="800" alt="{3801E8E0-76DE-4151-95F2-BE19629C0EE3}" src="https://github.com/user-attachments/assets/a220a797-c689-44ee-bf4c-b205ec35c79d" />
+      <img width="800" alt="{3801E8E0-76DE-4151-95F2-BE19629C0EE3}" src="https://github.com/user-attachments/assets/a220a797-c689-44ee-bf4c-b205ec35c79d" />
     - 选择"编辑 Cloudflare Workers"模板创建令牌,
-    <img width="790" alt="{EFDF4F09-BF26-4875-A796-92BC24ACF9FA}" src="https://github.com/user-attachments/assets/6938658a-bc02-4c82-b7f4-1c06bae87184" />
+      <img width="790" alt="{EFDF4F09-BF26-4875-A796-92BC24ACF9FA}" src="https://github.com/user-attachments/assets/6938658a-bc02-4c82-b7f4-1c06bae87184" />
     - 继续按照如下设置
-    ![图片](https://github.com/user-attachments/assets/9b27cb45-403a-4972-9e53-8e3d4afb65c5)
+      ![图片](https://github.com/user-attachments/assets/9b27cb45-403a-4972-9e53-8e3d4afb65c5)
     - 确认创建
-    ![图片](https://github.com/user-attachments/assets/b7b441e4-8585-45f5-b710-a20ae115c4f0)
+      ![图片](https://github.com/user-attachments/assets/b7b441e4-8585-45f5-b710-a20ae115c4f0)
     - 你会得到一串由数字字母组成的字符串，请将它复制到文本记录器中保留备用
-    ![图片](https://github.com/user-attachments/assets/b6aa054e-4592-4e6c-9afc-d761a77377ce)
+      ![图片](https://github.com/user-attachments/assets/b6aa054e-4592-4e6c-9afc-d761a77377ce)
 
 - 获取KV空间ID
  在存储与数据库中找到KV页，复制你想要存储的KV空间的ID到文本记录器中备用(没有的创建一个)
