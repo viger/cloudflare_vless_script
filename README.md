@@ -12,10 +12,10 @@
 - 自有域名一个(非必须)
 - 没了
 
-####自动部署
+#### 自动部署
 -
 
-####手动部署
+#### 手动部署
 将_worker.js中的代码复制到worker代码中，或上传文件到pages。
 然后按如下图方式配置即可;
 ![图片](https://github.com/user-attachments/assets/6a5c906e-79fa-401d-8015-5bcf908b35e3)
