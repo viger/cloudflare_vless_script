@@ -38,7 +38,7 @@
   ![图片](https://github.com/user-attachments/assets/a4b85071-1c15-464d-8cbe-dab29fa60a03)
   创建如下项目，内容请按照自己的喜好修改；
   <img width="783" alt="{6DF8DFCA-7CF4-45F1-A99F-E19C300EC3E2}" src="https://github.com/user-attachments/assets/89539db9-abfe-497c-93fb-b21d8e149856" />
-  *注意 CF_API_TOKEN 中内容填上第一步获取的API令牌字符串。
+  * 注意 CF_API_TOKEN 中内容填上第一步获取的API令牌字符串。
   * CF_REDIRECT_URL中填写你想重定向的网址比如www.baidu.com
 - 修改wrangler.toml
   这一步需要更改worker名字，自定义二级/三级域名，KV空间ID，请替换对应位置内容即可。
