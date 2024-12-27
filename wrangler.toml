@@ -1,0 +1,18 @@
+name = "__[replace]_your_worker_name__"
+main = "worker.js"
+compatibility_date = "2024-12-18"
+workers_dev = false
+rules = [
+  { type = "ESModule", globs = ["**/*.js"], fallthrough = true }
+]
+
+routes = [
+  { pattern = "__[replace]_your_custom_domain__", custom_domain = true }
+]
+
+kv_namespaces = [
+  { binding = "blog", id = "__[replace]_your_kv_namespace_id__" }
+]
+
+[placement]
+mode = "smart"
