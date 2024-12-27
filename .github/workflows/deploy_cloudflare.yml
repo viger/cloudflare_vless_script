@@ -1,0 +1,28 @@
+name: Cloudflare Worker Deploy
+on:
+  #push:
+  #  branches:
+  #    - main
+  repository_dispatch:
+  workflow_dispatch:
+  #schedule:
+  #  - cron: '1 */18 * * *'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rename Workerjs
+        run: |
+          mv _worker.js worker.js
+      - name: Delete Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          command: 'delete --name __[replace]_your_worker_name__ --dry-run'
+      - name: Deploy Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          command: 'deploy --keep-vars --var uid:${{ secrets.CF_UUID }} BLOG_PWD:${{ secrets.CF_TROJANT_PWD }}'
