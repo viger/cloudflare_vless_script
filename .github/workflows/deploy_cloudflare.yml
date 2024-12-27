@@ -25,4 +25,4 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          command: 'deploy --keep-vars --var uid:${{ secrets.CF_UUID }} BLOG_PWD:${{ secrets.CF_TROJANT_PWD }}'
+          command: 'deploy --keep-vars --var uid:${{ secrets.CF_UUID }} BLOG_PWD:${{ secrets.CF_TROJANT_PWD }} redirecter:${{ secrets.CF_REDIRECT_URL }}'
